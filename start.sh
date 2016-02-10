@@ -1,5 +1,5 @@
 #!/bin/bash
-RUN go install app1
+go install app1
 # run hello example
 ./bin/app1
 
