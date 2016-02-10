@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-go run src/app1
+go run src/app1/runserver.go
 # run hello example
 #./bin/app1
 
