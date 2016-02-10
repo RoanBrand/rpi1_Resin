@@ -13,5 +13,7 @@ ENV INITSYSTEM on
 # copy start.sh script to root dir
 COPY start.sh /
 
+COPY src /go/src
+
 # run start.sh on start
 CMD ["bash", "/start.sh"]
